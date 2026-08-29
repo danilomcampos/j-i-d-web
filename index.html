@@ -1,0 +1,273 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jazz is Dead</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <style type="text/tailwindcss">
+        @theme {
+          /* Fonts */
+          --font-inter: "Inter", sans-serif;
+          --font-big-shoulders: "Big Shoulders", sans-serif;
+          --text-display-sm: 32px;
+          --text-display-xl: 80px;
+          --text-10xl: 200px;
+
+          /* Spacing */
+          --spacing-p90: 90%;
+          --spacing-p140: 140%;
+
+          /* Animations */
+          --animate-spin: spin 4s linear infinite;
+            @keyframes spin {
+                from {
+                transform: rotate(0deg);
+                }
+                to {
+                transform: rotate(360deg);
+                }
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-black font-inter antialiased">
+    <div>
+        <!-- Navegação -->
+        <div
+            class="fixed top-0 left-0 w-full bg-black flex flex-row items-center justify-between px-20 py-5 z-999 max-lg:px-6 max-md:py-3">
+            <a href="./index.html" class="text-white text-xl font-semibold">Playlists Studio</a>
+            <div
+                class="flex flex-row items-center justify-center rounded-full px-5 py-4 border border-zinc-700 cursor-pointer hover:border-white transition-all duration-200 ease-in-out">
+                <div class="text-white text-sm font-medium">Ouça no Spotify</div>
+            </div>
+        </div>
+
+        <!-- Destaque -->
+        <div class="pt-40 pb-20 px-20 grid grid-cols-3 gap-5 max-md:grid-cols-1 max-lg:px-6 max-md:py-15">
+            <img src="./assets/img/marcos-valle-hero.jpg" alt="Playlist Image" class="col-span-1">
+            <div
+                class="col-span-1 uppercase font-big-shoulders text-white text-10xl font-black leading-p90 max-md:text-8xl  max-md:row-start-3  max-[1319px]:text-9xl">
+                Jazz</div>
+            <a href="https://open.spotify.com/playlist/37i9dQZF1DXdPec7aPCuWE?si=1234567890" target="_blank"
+                class="col-span-1 rounded-full bg-white aspect-square flex items-center justify-center animate-spin">
+                <div class="uppercase text-black font-big-shoulders text-display-sm font-black ">
+                    Ouça
+                    no
+                    Spotify</div>
+            </a>
+            <div
+                class="col-span-1 uppercase font-big-shoulders text-white text-10xl font-black leading-p90 max-md:text-8xl max-md:text-center  max-[1319px]:text-9xl">
+                Is</div>
+            <div class="flex items-end max-md:justify-end">
+                <div
+                    class="col-span-1 uppercase font-big-shoulders text-white text-10xl font-black leading-p90 max-md:text-8xl max-md:text-right max-[1319px]:text-9xl">
+                    Dead
+                </div>
+            </div>
+            <img src="./assets/img/bobbi-humphrey-colorida.jpg" alt="Playlist Image" class="col-span-1">
+        </div>
+
+        <!-- Sobre -->
+        <div class="p-20 grid grid-cols-3 gap-5 max-md:grid-cols-1 max-lg:px-6 max-md:py-15">
+            <div class="col-start-3 flex flex-col gap-8 max-md:col-start-1">
+                <h2 class="text-white text-display-sm font-big-shoulders font-black leading-none uppercase">Protegendo
+                    a
+                    importância
+                    de seres humanos
+                    fazendo música para outros seres humanos</h2>
+                <p class="text-white  text-sm leading-p140 opacity-60">
+                    Played By Humans coloca o poder de distinguir entre música gerada por IA e música feita por humanos
+                    nas mãos de seus criadores.
+                    <br /><br />
+                    Ao fazer isso, oferecemos aos artistas um padrão autenticado, definitivo e aplicável a toda a
+                    indústria para destacar seu trabalho, enquanto damos aos fãs a confiança de saber, sem dúvidas, que
+                    o que estão ouvindo foi criado por artistas humanos reais e vivos.
+                    <br /><br />
+                    Em uma era onde a linha entre o humano e a máquina se tornou tênue, o valor desse entendimento nunca
+                    foi tão importante, por razões criativas, culturais, econômicas e sociológicas.
+                </p>
+            </div>
+        </div>
+
+        <!-- Top artistas -->
+        <div class="py-30 px-20 flex flex-col gap-10 max-md:py-15 max-md:px-10">
+            <div class="flex flex-row items-center justify-center w-full gap-17 max-md:gap-2">
+                <a href="./marcos-valle.html"
+                    class="w-76 h-auto aspect-3/4 -rotate-15 translate-y-12 hover:scale-110 hover:-rotate-20 transition-all duration-300 ease-in-out">
+                    <img src="./assets/img/marcos-valle.jpg" alt="Playlist Image" class="w-full h-full object-cover">
+                </a>
+                <div class="w-76 h-auto aspect-3/4  hover:scale-110 transition-all duration-300 ease-in-out">
+                    <img src="./assets/img/adrian-younge.jpg" alt="Playlist Image" class="w-full h-full object-cover">
+                </div>
+                <div
+                    class="w-76 h-auto aspect-3/4 rotate-15 translate-y-12 hover:scale-110 hover:rotate-25 transition-all duration-300 ease-in-out">
+                    <img src="./assets/img/bobbi-humphrey.jpg" alt="Playlist Image" class="w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="flex flex-col gap-8 items-center justify-center max-md:mt-4">
+                <h2
+                    class="text-white text-display-xl font-big-shoulders font-black leading-p90 uppercase text-center max-md:text-6xl">
+                    Top 3<br>
+                    artistas
+                </h2>
+                <div
+                    class="flex flex-row items-center justify-center rounded-full px-5 py-4 border border-zinc-700 cursor-pointer hover:border-white transition-all duration-200 ease-in-out">
+                    <div class="text-white text-sm font-medium">Ver todos</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Entrevista -->
+        <div class="py-30 px-20 grid grid-cols-2 col-gap-5 max-md:grid-cols-1 max-lg:px-6 max-md:py-15">
+            <div class="flex flex-col justify-between aspect-square max-md:aspect-auto max-md:gap-2">
+                <p class="text-white text-sm font-semibold">Entrevista com Mahershala Ali</p>
+                <div class="flex flex-col gap-4">
+                    <p
+                        class="text-white uppercase text-sm font-big-shoulders text-display-xl font-black leading-p90 max-md:text-6xl">
+                        a
+                        ideologia
+                        de encontrar
+                        a si mesmo</p>
+                    <p class="text-white text-sm opacity-60">1h11min</p>
+                </div>
+            </div>
+            <div id="interview-video" class="aspect-square relative cursor-pointer group">
+                <div
+                    class="absolute w-20 aspect-square bg-white left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 rounded-full flex items-center justify-center z-10 transition-transform duration-200 ease-in-out group-hover:scale-110">
+                    <img src="./assets/img/play_arrow.svg" alt="Playlist Image" class="w-6">
+                </div>
+
+                <img src="./assets/img/frame-video.jpg" alt="Playlist Image"
+                    class="w-full h-full object-cover transition-opacity duration-200 ease-in-out group-hover:opacity-90">
+            </div>
+        </div>
+
+        <!-- Playlists -->
+        <div class="px-20 flex flex-col bg-white max-lg:px-6">
+            <div class="grid grid-cols-12 gap-5 py-30 max-md:py-15">
+                <div class="flex flex-col col-start-7 col-end-10 gap-4 max-md:col-start-1">
+                    <p class="text-black text-sm font-semibold opacity-60">Aperte o play</p>
+                    <h2
+                        class="text-black text-display-xl font-big-shoulders font-black leading-p90 uppercase max-md:text-6xl">
+                        Conheça<br>o
+                        melhor<br>do jazz
+                    </h2>
+                </div>
+            </div>
+            <!-- Playlist 1 -->
+            <div class="grid grid-cols-12 gap-5 border-t border-zinc-200 py-10 items-center max-md:grid-cols-1">
+                <div class="col-start-1 col-end-6 aspect-square rounded-full overflow-hidden max-md:col-end-2">
+                    <img src="./assets/img/playlist-acid.jpg" alt="Playlist Image" class="w-full h-full object-cover">
+                </div>
+                <div class="col-start-7 col-end-11 flex flex-col gap-5 max-md:col-start-1 max-md:col-end-2">
+                    <p
+                        class="text-black text-display-xl font-big-shoulders font-black leading-p90 uppercase max-md:text-6xl">
+                        Acid<br>jazz is dead</p>
+                    <p class="text-black text-sm opacity-60">Curta ou relaxe com esta coleção de músicas movidas a jazz
+                        e fortalecidas pelo funk para você
+                        entrar no ritmo.</p>
+                    <div
+                        class="flex flex-row items-center justify-center rounded-full px-5 py-4 outline-1 outline-zinc-200 cursor-pointer w-fit hover:outline-2 hover:outline-zinc-300 transition-all duration-200 ease-in-out">
+                        <div class="text-black text-sm font-medium">Ouça no Spotify</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Playlist 2 -->
+            <div class="grid grid-cols-12 gap-5 border-t border-zinc-200 py-10 items-center max-md:grid-cols-1">
+                <div class="col-start-1 col-end-6 aspect-square rounded-full overflow-hidden max-md:col-end-2">
+                    <img src="./assets/img/playlist-latin.jpg" alt="Playlist Image" class="w-full h-full object-cover">
+                </div>
+                <div class="col-start-7 col-end-11 flex flex-col gap-5 max-md:col-start-1 max-md:col-end-2">
+                    <p
+                        class="text-black text-display-xl font-big-shoulders font-black leading-p90 uppercase max-md:text-6xl">
+                        Latin<br>jazz is dead</p>
+                    <p class="text-black text-sm opacity-60">Lendas latinas do Mambo aos ritmos modernos, mesclando
+                        Afro-Cuban jazz, Bossa Nova, Samba jazz e mais ícones como Eddie Palmieri, Arturo Sandoval, João
+                        Donato, Marcos Valle e Ray Barretto.</p>
+                    <div
+                        class="flex flex-row items-center justify-center rounded-full px-5 py-4 outline-1 outline-zinc-200 cursor-pointer w-fit hover:outline-2 hover:outline-zinc-300 transition-all duration-200 ease-in-out">
+                        <div class="text-black text-sm font-medium">Ouça no Spotify</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Playlist 3 -->
+            <div class="grid grid-cols-12 gap-5 border-t border-zinc-200 py-10 items-center max-md:grid-cols-1">
+                <div class="col-start-1 col-end-6 aspect-square rounded-full overflow-hidden max-md:col-end-2">
+                    <img src="./assets/img/playlist-cosmic.jpg" alt="Playlist Image" class="w-full h-full object-cover">
+                </div>
+                <div class="col-start-7 col-end-11 flex flex-col gap-5 max-md:col-start-1 max-md:col-end-2">
+                    <p
+                        class="text-black text-display-xl font-big-shoulders font-black leading-p90 uppercase max-md:text-6xl">
+                        Cosmic<br>jazz is dead</p>
+                    <p class="text-black text-sm opacity-60">Junte-se ao selo Jazz Is Dead em uma jornada movida a jazz,
+                        funk, soul e psicodelia através de um universo sonoro tão vasto e inspirador quanto o próprio
+                        céu.</p>
+                    <div
+                        class="flex flex-row items-center justify-center rounded-full px-5 py-4 outline-1 outline-zinc-200 cursor-pointer w-fit hover:outline-2 hover:outline-zinc-300 transition-all duration-200 ease-in-out">
+                        <div class="text-black text-sm font-medium">Ouça no Spotify</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="pt-30 pb-10 px-20 flex flex-col gap-30 bg-white max-lg:px-6">
+            <div class="flex flex-col">
+                <p class="text-black text-10xl font-big-shoulders font-black leading-p90 uppercase max-md:text-8xl">Jazz
+                </p>
+                <p
+                    class="text-black text-10xl font-big-shoulders font-black leading-p90 uppercase text-right max-md:text-8xl">
+                    is
+                </p>
+                <p
+                    class="text-black text-10xl font-big-shoulders font-black leading-p90 uppercase text-center max-md:text-8xl">
+                    Dead
+                </p>
+            </div>
+            <div class="flex flex-row items-center justify-between max-md:flex-col max-md:gap-4">
+                <p class="text-black text-sm opacity-60 max-md:text-center">Playlist Studio © 2026 Todos os direitos
+                    reservados.</p>
+                <div class="flex flex-row items-center gap-5">
+                    <a href="https://www.playliststudio.com.br" target="_blank"
+                        class="text-black text-sm font-semibold">Website</a>
+                    <a href="https://www.playliststudio.com.br" target="_blank"
+                        class="text-black text-sm font-semibold">Instagram</a>
+                    <a href="https://www.playliststudio.com.br" target="_blank"
+                        class="text-black text-sm font-semibold">Spotify</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const interviewLightbox = GLightbox({
+            elements: [
+                {
+                    href: 'https://www.youtube.com/watch?v=9RDmdNi7KkU',
+                    type: 'video',
+                    source: 'youtube',
+                    width: 900,
+                },
+            ],
+            autoplayVideos: true,
+        });
+
+        document.getElementById('interview-video').addEventListener('click', () => {
+            interviewLightbox.open();
+        });
+    </script>
+</body>
+
+</html>

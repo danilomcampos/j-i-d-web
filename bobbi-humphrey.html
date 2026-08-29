@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jazz is Dead</title>
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+          /* Fonts */
+          --font-inter: "Inter", sans-serif;
+          --font-big-shoulders: "Big Shoulders", sans-serif;
+          --text-display-sm: 32px;
+          --text-display-xl: 80px;
+          --text-10xl: 200px;
+        
+          /* Spacing */
+          --spacing-p90: 90%;
+          --spacing-p140: 140%;
+        }
+    </style>
+</head>
+
+<body class="bg-black font-inter antialiased">
+    <div>
+        <!-- Navegação -->
+        <div
+            class="fixed top-0 left-0 w-full bg-black flex flex-row items-center justify-between px-20 py-5 z-999 max-lg:px-6 max-md:py-3">
+            <a href="./index.html" class="text-white text-xl font-semibold">Playlist Studio</a>
+            <div
+                class="flex flex-row items-center justify-center rounded-full px-5 py-4 border border-zinc-700 cursor-pointer hover:border-white transition-all duration-200 ease-in-out">
+                <div class="text-white text-sm font-medium">Ouça no Spotify</div>
+            </div>
+        </div>
+
+        <!-- Destaque -->
+        <div class="pt-40 pb-20 px-20 grid grid-cols-6 gap-5 max-md:grid-cols-1 max-lg:px-6 max-md:pb-15 max-md:pt-30">
+            <h1
+                class="col-start-2 col-end-6 text-white text-10xl font-big-shoulders font-black leading-p90 uppercase text-center max-lg:text-8xl max-md:col-start-1 max-md:col-end-2">
+                Bobbi Humphrey</h1>
+
+            <div class="col-start-3 col-end-5 flex flex-col gap-10 max-md:col-start-1 max-md:col-end-2">
+                <img src="./assets/img/bobbi-humphrey-colorida.jpg" alt="Playlist Image"
+                    class="w-full h-full object-cover mt-5">
+                <p class="text-white text-sm opacity-60">Barbara Ann "Bobbi" Humphrey (Marlin, Texas, 25 de abril de
+                    1950) é uma flautista e cantora de jazz norte-americana, com doze álbuns gravados ao longo da
+                    carreira entre o jazz fusion, o funk e o soul-jazz.
+                    <br><br>
+                    Criada em Dallas, estudou flauta clássica e jazz na Texas Southern University e na Southern
+                    Methodist University. Foi Dizzy Gillespie, ao vê-la tocar em um concurso de talentos, quem a
+                    incentivou a seguir carreira em Nova York. Poucas semanas depois de chegar à cidade, em 1971, ela se
+                    tornou a primeira instrumentista mulher contratada pela Blue Note e estreou com o álbum Flute-In.
+                    <br><br>
+                    Gravado em 1973 com os irmãos Mizell, Blacks and Blues virou um de seus maiores sucessos e marcou a
+                    virada do jazz tradicional para o encontro com o funk. Em 1976 foi eleita melhor instrumentista
+                    feminina pela revista Billboard e, em 1994, fundou o próprio selo, a Paradise Sounds Records. Seu
+                    trabalho segue sendo sampleado por nomes como Digable Planets, Mobb Deep e Ludacris.
+                </p>
+            </div>
+        </div>
+
+        <!-- Discografia -->
+        <div class="pt-40 pb-20 px-20 flex flex-col max-lg:px-6 max-md:py-15">
+            <div class="border-t border-white py-10">
+                <h2
+                    class="text-white text-display-xl font-big-shoulders font-black leading-p90 uppercase max-md:text-3xl">
+                    Discografia
+                </h2>
+            </div>
+            <div class="grid grid-cols-3 gap-x-5 gap-y-8 max-md:grid-cols-2">
+                <!-- Album 1 -->
+                <div class="flex flex-col gap-4 group">
+                    <div class="aspect-square group-hover:saturate-0 transition-all duration-300 ease-in-out">
+                        <img src="./assets/img/bobbi-humphrey.jpg" alt="Playlist Image"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <p class="font-big-shoulders text-2xl font-black leading-p90 uppercase text-white">Flute-In</p>
+                        <p class="text-white text-sm opacity-60">1971</p>
+                    </div>
+                </div>
+                <!-- Album 2 -->
+                <div class="flex flex-col gap-4 group">
+                    <div class="aspect-square group-hover:saturate-0 transition-all duration-300 ease-in-out">
+                        <img src="./assets/img/bobbi-humphrey-colorida.jpg" alt="Playlist Image"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <p class="font-big-shoulders text-2xl font-black leading-p90 uppercase text-white">Blacks and
+                            Blues</p>
+                        <p class="text-white text-sm opacity-60">1973</p>
+                    </div>
+                </div>
+                <!-- Album 3 -->
+                <div class="flex flex-col gap-4 group">
+                    <div class="aspect-square group-hover:saturate-0 transition-all duration-300 ease-in-out">
+                        <img src="./assets/img/bobbi-humphrey.jpg" alt="Playlist Image"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <p class="font-big-shoulders text-2xl font-black leading-p90 uppercase text-white">Satin Doll
+                        </p>
+                        <p class="text-white text-sm opacity-60">1974</p>
+                    </div>
+                </div>
+                <!-- Album 4 -->
+                <div class="flex flex-col gap-4 group">
+                    <div class="aspect-square group-hover:saturate-0 transition-all duration-300 ease-in-out">
+                        <img src="./assets/img/bobbi-humphrey-colorida.jpg" alt="Playlist Image"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <p class="font-big-shoulders text-2xl font-black leading-p90 uppercase text-white">Fancy Dancer
+                        </p>
+                        <p class="text-white text-sm opacity-60">1975</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="pt-30 pb-10 px-20 flex flex-col gap-30 bg-black max-lg:px-6">
+            <div class="flex flex-col">
+                <p class="text-white text-10xl font-big-shoulders font-black leading-p90 uppercase max-md:text-8xl">Jazz
+                </p>
+                <p
+                    class="text-white text-10xl font-big-shoulders font-black leading-p90 uppercase text-right max-md:text-8xl">
+                    is
+                </p>
+                <p
+                    class="text-white text-10xl font-big-shoulders font-black leading-p90 uppercase text-center max-md:text-8xl">
+                    Dead
+                </p>
+            </div>
+            <div class="flex flex-row items-center justify-between max-md:flex-col max-md:gap-4">
+                <p class="text-white text-sm opacity-60 max-md:text-center">Playlist Studio © 2026 Todos os direitos
+                    reservados.</p>
+                <div class="flex flex-row items-center gap-5">
+                    <a href="https://www.playliststudio.com.br" target="_blank"
+                        class="text-white text-sm font-semibold">Website</a>
+                    <a href="https://www.playliststudio.com.br" target="_blank"
+                        class="text-white text-sm font-semibold">Instagram</a>
+                    <a href="https://www.playliststudio.com.br" target="_blank"
+                        class="text-white text-sm font-semibold">Spotify</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

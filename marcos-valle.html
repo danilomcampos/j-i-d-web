@@ -1,0 +1,158 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jazz is Dead</title>
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+          /* Fonts */
+          --font-inter: "Inter", sans-serif;
+          --font-big-shoulders: "Big Shoulders", sans-serif;
+          --text-display-sm: 32px;
+          --text-display-xl: 80px;
+          --text-10xl: 200px;
+        
+          /* Spacing */
+          --spacing-p90: 90%;
+          --spacing-p140: 140%;
+        }
+    </style>
+</head>
+
+<body class="bg-black font-inter antialiased">
+    <div>
+        <!-- Navegação -->
+        <div
+            class="fixed top-0 left-0 w-full bg-black flex flex-row items-center justify-between px-20 py-5 z-999 max-lg:px-6 max-md:py-3">
+            <a href="./index.html" class="text-white text-xl font-semibold">Playlist Studio</a>
+            <div
+                class="flex flex-row items-center justify-center rounded-full px-5 py-4 border border-zinc-700 cursor-pointer hover:border-white transition-all duration-200 ease-in-out">
+                <div class="text-white text-sm font-medium">Ouça no Spotify</div>
+            </div>
+        </div>
+
+        <!-- Destaque -->
+        <div class="pt-40 pb-20 px-20 grid grid-cols-6 gap-5 max-md:grid-cols-1 max-lg:px-6 max-md:pb-15 max-md:pt-30">
+            <h1
+                class="col-start-2 col-end-6 text-white text-10xl font-big-shoulders font-black leading-p90 uppercase text-center max-lg:text-8xl max-md:col-start-1 max-md:col-end-2">
+                Marcos Valle</h1>
+
+            <div class="col-start-3 col-end-5 flex flex-col gap-10 max-md:col-start-1 max-md:col-end-2">
+                <img src="./assets/img/marcos-valle-profile.jpg" alt="Playlist Image"
+                    class="w-full h-full object-cover mt-5">
+                <p class="text-white text-sm opacity-60">Marcos Kostenbader Valle (Rio de Janeiro, 14 de setembro de
+                    1943) é um compositor, cantor, instrumentista e arranjador brasileiro.
+                    <br><br>
+                    Escreveu muitos temas para telenovelas, dentre elas Pigmalião 70 e Os Ossos do Barão. Nos anos 70, a
+                    TV Globo solicitou aos irmãos Valle e Nelson Motta que fizessem uma canção de natal para o fim do
+                    ano, com os atores das telenovelas e artistas da Rede Globo cantando. A canção "Um novo tempo" (a
+                    dos versos "Hoje é um novo dia / de um novo tempo / que começou...") tornou-se um sucesso tão grande
+                    que nunca mais saiu do ar, sendo presença obrigatória no Natal da Rede Globo até hoje.
+                    <br><br>
+                    Jet-Samba foi o primeiro disco lançado por um selo brasileiro após dezenove anos, e o primeiro
+                    totalmente instrumental em 38 anos, com Valle comandando toda a produção e também assinando os
+                    arranjos. Seu último trabalho é o CD e DVD Estática, lançado em 2010.
+                </p>
+            </div>
+        </div>
+
+        <!-- Discografia -->
+        <div class="pt-40 pb-20 px-20 flex flex-col max-lg:px-6 max-md:py-15">
+            <div class="border-t border-white py-10">
+                <h2
+                    class="text-white text-display-xl font-big-shoulders font-black leading-p90 uppercase max-md:text-3xl">
+                    Discografia
+                </h2>
+            </div>
+            <div class="grid grid-cols-3 gap-x-5 gap-y-8 max-md:grid-cols-2">
+                <!-- Album 1 -->
+                <div class="flex flex-col gap-4 group">
+                    <div class="aspect-square group-hover:saturate-0 transition-all duration-300 ease-in-out">
+                        <img src="./assets/img/marcos-valle-discografia-1.jpg" alt="Playlist Image"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <p class="font-big-shoulders text-2xl font-black leading-p90 uppercase text-white">Jet-Samba</p>
+                        <p class="text-white text-sm opacity-60">1966</p>
+                    </div>
+                </div>
+                <!-- Album 2 -->
+                <div class="flex flex-col gap-4 group">
+                    <div class="aspect-square group-hover:saturate-0 transition-all duration-300 ease-in-out">
+                        <img src="./assets/img/marcos-valle-discografia-2.jpg" alt="Playlist Image"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <p class="font-big-shoulders text-2xl font-black leading-p90 uppercase text-white">Vontade de
+                            rever Você</p>
+                        <p class="text-white text-sm opacity-60">1981</p>
+                    </div>
+                </div>
+                <!-- Album 3 -->
+                <div class="flex flex-col gap-4 group">
+                    <div class="aspect-square group-hover:saturate-0 transition-all duration-300 ease-in-out">
+                        <img src="./assets/img/marcos-valle-discografia-3.jpg" alt="Playlist Image"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <p class="font-big-shoulders text-2xl font-black leading-p90 uppercase text-white">marcos valle
+                        </p>
+                        <p class="text-white text-sm opacity-60">1983</p>
+                    </div>
+                </div>
+                <!-- Album 4 -->
+                <div class="flex flex-col gap-4 group">
+                    <div class="aspect-square group-hover:saturate-0 transition-all duration-300 ease-in-out">
+                        <img src="./assets/img/marcos-valle-discografia-4.jpg" alt="Playlist Image"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <p class="font-big-shoulders text-2xl font-black leading-p90 uppercase text-white">Tempo Da
+                            Gente</p>
+                        <p class="text-white text-sm opacity-60">1986</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="pt-30 pb-10 px-20 flex flex-col gap-30 bg-black max-lg:px-6">
+            <div class="flex flex-col">
+                <p class="text-white text-10xl font-big-shoulders font-black leading-p90 uppercase max-md:text-8xl">Jazz
+                </p>
+                <p
+                    class="text-white text-10xl font-big-shoulders font-black leading-p90 uppercase text-right max-md:text-8xl">
+                    is
+                </p>
+                <p
+                    class="text-white text-10xl font-big-shoulders font-black leading-p90 uppercase text-center max-md:text-8xl">
+                    Dead
+                </p>
+            </div>
+            <div class="flex flex-row items-center justify-between max-md:flex-col max-md:gap-4">
+                <p class="text-white text-sm opacity-60 max-md:text-center">Playlist Studio © 2026 Todos os direitos
+                    reservados.</p>
+                <div class="flex flex-row items-center gap-5">
+                    <a href="https://www.playliststudio.com.br" target="_blank"
+                        class="text-white text-sm font-semibold">Website</a>
+                    <a href="https://www.playliststudio.com.br" target="_blank"
+                        class="text-white text-sm font-semibold">Instagram</a>
+                    <a href="https://www.playliststudio.com.br" target="_blank"
+                        class="text-white text-sm font-semibold">Spotify</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
